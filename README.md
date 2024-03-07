@@ -1,2 +1,2 @@
 # Demo-Website
-Create website using HTML/CSS
+Create website using HTML/CSS and Javascript
