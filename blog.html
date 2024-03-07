@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.1/css/font-awesome.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <!-- header  -->
+    <section class="sub_header">
+        <!-- navigation  -->
+        <nav>
+            <!-- logo -->
+            <a href="index.html">
+                <img src="img/logo.png" alt="Logo">
+            </a>
+            <!-- menus -->
+            <div id="nav_link" class="nav_links">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="courses.html">Course</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <!-- main content  -->
+        <h1>Our Certificate & Online Programs For 2024</h1>
+    </section>
+
+    <!-- blogs -->
+    <section class="blogs">
+        <div class="row">
+            <div class="blog_left">
+                <img src="img/certificate.jpg" alt="Certificate">
+                <h2>Our Certificate & Online Programs For 2024</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fuga corporis aperiam consequatur doloribus
+                    aut magnam earum porro eaque dolorum ipsam illum, obcaecati voluptate repellendus dolore ratione cum
+                    provident possimus illo quod in. Minus cum inventore obcaecati libero, nihil a quisquam!</p>
+                <br>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus nesciunt nobis nihil
+                    doloremque consequatur nam, fugiat distinctio rem eaque quod facere illo ipsam, esse voluptatum
+                    voluptatibus praesentium non. Perspiciatis repudiandae esse voluptatem temporibus provident?
+                    Voluptatibus officiis adipisci est repudiandae vero dolores reiciendis veritatis, non sapiente, quo
+                    libero cum mollitia voluptatum!</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus ipsum, aliquid quae quia quo dolore
+                    aut, facere sit repellendus in ullam quam, dolorem iure illum magni commodi quaerat suscipit. Est.
+                </p>
+
+                <div class="comments">
+                    <h3>Leave a comment</h3>
+                    <form class="comment_form">
+                        <input type="text" placeholder="Enter Name">
+                        <input type="text" placeholder="Enter Email">
+                        <textarea rows="5"></textarea>
+                        <button type="submit" class="explore_btn">
+                            Post Comment
+                        </button>
+                    </form>
+                </div>
+            </div>
+            <div class="blog_right">
+                <h3>Post Categories</h3>
+                <div>
+                    <span>Business Analytics</span>
+                    <span>23</span>
+                </div>
+                <div>
+                    <span>Data Science</span>
+                    <span>33</span>
+                </div>
+                <div>
+                    <span>Machine Learning</span>
+                    <span>64</span>
+                </div>
+                <div>
+                    <span>Computer Science</span>
+                    <span>76</span>
+                </div>
+                <div>
+                    <span>Commerce</span>
+                    <span>46</span>
+                </div>
+                <div>
+                    <span>Art</span>
+                    <span>32</span>
+                </div>
+                <div>
+                    <span>Communication</span>
+                    <span>86</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer  -->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit impedit incidunt, quaerat, eos inventore
+            praesentium <br> aliquid voluptate similique perferendis ea sint nostrum voluptatum ad, est natus fuga
+            numquam velit expedita.</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>Made with <i class="fa fa-heart-o"></i> by Jaimi !</p>
+    </section>
+
+    <script>
+        // for toggle menu 
+        var navLinks = document.getElementById("nav_link");
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+
+</html>
